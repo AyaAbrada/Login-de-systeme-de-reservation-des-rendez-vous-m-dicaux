@@ -1,14 +1,14 @@
 package com.rendezVous.model;
 
 public class user {
-    int id;
+    int userId;
     String nom;
     String email;
-    int mdps;
-    int telephone;
+    String mdps;
+    String telephone;
 
-    public user(int id, String nom, String email, int mdps, int telephone ) {
-        this.id = id;
+    public user(int userId, String nom, String email, String mdps,String telephone ) {
+        this.userId = userId;
         this.nom = nom;
         this.email = email;
         this.mdps = mdps;
@@ -16,11 +16,11 @@ public class user {
     }
 
     public int getId() {
-        return id;
+        return userId;
     }
 
     public void setId(int id) {
-        this.id = id;
+        this.userId = userId;
     }
 
     public String getNom() {
@@ -39,19 +39,19 @@ public class user {
         this.email = email;
     }
 
-    public int getMdps() {
+    public String getMdps() {
         return mdps;
     }
 
-    public void setMdps(int mdps) {
+    public void setMdps(String mdps) {
         this.mdps = mdps;
     }
 
-    public int getTelephone() {
+    public String getTelephone() {
         return telephone;
     }
 
-    public void setTelephone(int telephone) {
+    public void setTelephone(String telephone) {
         this.telephone = telephone;
     }
 

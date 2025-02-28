@@ -35,7 +35,6 @@
              <input type="text" class="form-control" id="specialite" name="specialite">
              <small>Remplissez ceci uniquement si vous êtes un médecin.</small>
         </div>
-
         <button type="submit" class="btn btn-success">Créer un compte</button>
     </form>
 

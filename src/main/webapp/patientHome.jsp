@@ -9,7 +9,7 @@
 </head>
 <body>
 
-<h3>Patient Home</h3>
+<h3 class = "p-3">Patient Home</h3>
 
 </body>
 </html>

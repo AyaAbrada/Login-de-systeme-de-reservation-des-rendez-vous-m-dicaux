@@ -9,8 +9,8 @@
 
   <form action="LoginServlet" method="post" class = "m-3">
     <div class="mb-3">
-          <label for="username" class="form-label">Nom compléte :</label>
-          <input type="text" class="form-control" id="nom" name="nom" required>
+          <label for="email" class="form-label">Email :</label>
+          <input type="email" class="form-control" id="email" name="email" required>
     </div>
 
     <div class="mb-3">

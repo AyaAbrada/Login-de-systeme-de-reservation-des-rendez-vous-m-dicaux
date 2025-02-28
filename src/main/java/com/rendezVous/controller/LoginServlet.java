@@ -5,8 +5,10 @@ import javax.servlet.*;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
 import java.sql.*;
+
 @WebServlet("/LoginServlet")
 public class LoginServlet extends HttpServlet {
+
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String email = request.getParameter("email");
         String mdps = request.getParameter("mdps");
@@ -38,7 +40,7 @@ public class LoginServlet extends HttpServlet {
                 response.sendRedirect("patientHome.jsp");
             } else {
                 // Informations incorrectes, rediriger vers la page d'erreur
-                response.sendRedirect("login-error.jsp");
+                response.sendRedirect("error.jsp");
             }
         } catch (SQLException e) {
             e.printStackTrace();
@@ -52,5 +54,13 @@ public class LoginServlet extends HttpServlet {
                 e.printStackTrace();
             }
         }
+    }
+
+    // La méthode doGet permet d'afficher la page de connexion (formulaire)
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        // Rediriger vers la page de login (formulaire)
+        // Vous pouvez rediriger vers une page JSP contenant le formulaire de connexion
+        RequestDispatcher dispatcher = request.getRequestDispatcher("connecter.jsp");
+        dispatcher.forward(request, response);
     }
 }
