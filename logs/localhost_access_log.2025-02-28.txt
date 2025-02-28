@@ -106,3 +106,8 @@
 0:0:0:0:0:0:0:1 - - [28/Feb/2025:18:09:57 +0100] "GET /Demandez-Rendez-vous2/creer.jsp HTTP/1.1" 200 1608
 0:0:0:0:0:0:0:1 - - [28/Feb/2025:18:10:05 +0100] "POST /Demandez-Rendez-vous2/RegisterServlet HTTP/1.1" 302 -
 0:0:0:0:0:0:0:1 - - [28/Feb/2025:18:10:05 +0100] "GET /Demandez-Rendez-vous2/error.jsp HTTP/1.1" 200 275
+0:0:0:0:0:0:0:1 - - [28/Feb/2025:18:21:41 +0100] "GET /Demandez-Rendez-vous2 HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [28/Feb/2025:18:21:43 +0100] "GET /Demandez-Rendez-vous2/ HTTP/1.1" 200 609
+0:0:0:0:0:0:0:1 - - [28/Feb/2025:18:21:45 +0100] "GET /Demandez-Rendez-vous2/creer.jsp HTTP/1.1" 200 1608
+0:0:0:0:0:0:0:1 - - [28/Feb/2025:18:21:55 +0100] "POST /Demandez-Rendez-vous2/RegisterServlet HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [28/Feb/2025:18:21:55 +0100] "GET /Demandez-Rendez-vous2/error.jsp HTTP/1.1" 200 275
