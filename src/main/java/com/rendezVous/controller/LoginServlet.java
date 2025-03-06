@@ -1,4 +1,6 @@
 package com.rendezVous.controller;
+import com.rendezVous.dao.DatabaseConnection;
+
 import javax.servlet.http.HttpServlet;
 import java.io.*;
 import javax.servlet.*;
@@ -19,7 +21,7 @@ public class LoginServlet extends HttpServlet {
 
         try {
             // Etablir la connexion à la base de données
-            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/login", "root", "admin");
+            conn = DatabaseConnection.getConnection();
 
             // Vérifier les informations d'identification de l'utilisateur
             String query = "SELECT * FROM user WHERE email = ? AND mdps = ?";

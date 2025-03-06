@@ -21,6 +21,7 @@ public class RegisterDAO {
             psUser.setString(3, mdps);
             psUser.setString(4, telephone);
 
+
             // Exécution de la requête d'insertion dans la table 'user'
             int affectedRows = psUser.executeUpdate();
 

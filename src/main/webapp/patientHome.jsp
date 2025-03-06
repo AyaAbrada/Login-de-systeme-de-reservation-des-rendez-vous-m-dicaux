@@ -10,6 +10,7 @@
 <body>
 
 <h3 class = "p-3">Patient Home</h3>
+<a href="index.jsp" class="btn btn-success mb-3 p-3 m-3">Retourne à la page principale</a>
 
 </body>
 </html>

@@ -9,7 +9,8 @@
 </head>
 <body>
 
-<h3 class = "p-3">Success</h3>
+<h1 class = "p-3">Success</h1>
+<a href="index.jsp" class="btn btn-success mb-3 p-3 m-3">Retourne à la page principale</a>
 
 </body>
 </html>
